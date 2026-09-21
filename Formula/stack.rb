@@ -1,8 +1,11 @@
+# frozen_string_literal: true
+
+# Homebrew formula for the Stack development-service dashboard.
 class Stack < Formula
   desc "Terminal dashboard for running a multi-service development stack"
   homepage "https://github.com/CaliLuke/autok-stack"
-  url "https://github.com/CaliLuke/autok-stack/releases/download/v0.2.0/autok-stack-0.2.0.tar.gz"
-  sha256 "a1b4ef60a6a59b2f6cc327201d3caa0aa1384e4ea445791f58c4a205dbc8e46e"
+  url "https://github.com/CaliLuke/autok-stack/releases/download/v0.2.1/autok-stack-0.2.1.tar.gz"
+  sha256 "4464879e3bb96eae80d9fa7f133a0a4d643aa14431633b3aabd0f84599e9c35e"
   license "MIT"
 
   depends_on "go" => :build
