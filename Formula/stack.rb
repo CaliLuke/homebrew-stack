@@ -1,8 +1,8 @@
 class Stack < Formula
   desc "Terminal dashboard for running a multi-service development stack"
   homepage "https://github.com/CaliLuke/autok-stack"
-  url "https://github.com/CaliLuke/autok-stack/releases/download/v0.1.0/autok-stack-0.1.0.tar.gz"
-  sha256 "0fd40863932c57e21b27e1117953579431ecfc123983578c21c93e0f967be837"
+  url "https://github.com/CaliLuke/autok-stack/releases/download/v0.2.0/autok-stack-0.2.0.tar.gz"
+  sha256 "a1b4ef60a6a59b2f6cc327201d3caa0aa1384e4ea445791f58c4a205dbc8e46e"
   license "MIT"
 
   depends_on "go" => :build
